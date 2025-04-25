@@ -1,0 +1,108 @@
+@import url("index.css");
+@import url(galeria.css);
+@import url(cuentas.css);
+@import url(contacto.css);
+
+/*Paleta de colores para la web*/
+:root{
+    --primaryColor: #D43089;
+    --secondaryColor: #9E37B8 ;
+    --accent: #F86F2F;
+    --background: #FED372;
+}
+
+body{
+    background: #D43089;
+    background: linear-gradient(180deg, rgba(212, 48, 137, 1) 20%, rgba(254, 211, 114, 1) 83%);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+nav{
+    display: flex;
+    width: 75%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.navList{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.4rem;
+    font-family: "Noto Sans JP", sans-serif;
+    list-style-type: none;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+i{
+    font-size: 1.2rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navTitle{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 2.5rem; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/*Fuente para todos los titulos de la web debajo de la mitad de la pagina*/
+.title{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 2.5rem; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.titleUp{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 2.5rem; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+header{
+    padding-left: 15px;
+    background-color: var(--primaryColor);
+    height: 130px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+
+
+  

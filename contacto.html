@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Poetsen+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Contacto - AriCommunityLab</title>
+</head>
+<body>
+    <header>
+        <h1 class="navTitle">AriCommunityLab</h1>
+        <nav>
+            <ul class="navList">
+                <a href="index.html"><li><i class="fa-solid fa-house"></i>  Inicio</li></a>
+                <a href="cuentas.html"><li><i class="fa-solid fa-bars"></i>  Cuentas</li></a>
+                <a href="galeria.html"><li><i class="fa-solid fa-image"></i>  Galeria</li></a>
+                <a href="contacto.html"><li><i class="fa-solid fa-phone"></i>  Contacto</li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <form id="formulario-contacto" action="#" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="tu nombre" required>
+
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" placeholder="tu email" required>
+
+        <label for="telefono">Telefono</label>
+        <input type="text" name="telefono" id="telefono" placeholder="numero de telefono" required>
+
+        <label for="comentario">Comentario</label>
+        <textarea type="text" name="comentario" id="comentario" placeholder="escribi aqui tu mensaje..." rows="4"  required></textarea>
+
+        <label for="motivo">Motivo de consulta</label>
+        <select name="motivo" id="motivo">
+            <option value="consulta">Consulta</option>
+            <option value="contenido">Dia de contenido</option>
+            <option value="manejo">Manejo de cuenta</option>
+        </select>
+
+        <label>
+            <input type="checkbox" name="novedades" value="si">
+            Quiero recibir novedades por email
+        </label>
+
+        <p>Como preferis que nos contactemos?</p>
+        <label><input type="radio" name="contacto" value="email" required> Email</label>
+        <label><input type="radio" name="contacto" value="whatsapp" required> Whatsapp</label>
+
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Resetear</button>
+    </form>
+
+    
+    
+</body>
+</html>

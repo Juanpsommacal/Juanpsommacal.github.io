@@ -1,0 +1,39 @@
+#formulario-contacto{
+  animation: Slide-in 2s ease 0s 1 normal forwards;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+input, textarea, select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form > button {
+  padding: 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button[type="reset"] {
+    background-color: #e74c3c;
+}
+
+@keyframes Slide-in {
+	0% {
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}

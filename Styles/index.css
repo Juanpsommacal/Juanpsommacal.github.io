@@ -3,8 +3,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 100px;
-    padding-right: 100px;
 }
 
 div{
@@ -27,9 +25,14 @@ div > img{
 
 .texto > h2{
     text-align: center;
+    font-size: 1.5rem;
 }
 
-.imagenYtexto img{
-    border-radius: 10px;
-    
+@media (max-width: 768px){
+    .imagenYtexto{
+        padding: 0;
+    }
+    .imagenYtexto img{
+        border-radius: 0px;
+    }
 }

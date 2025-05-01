@@ -103,6 +103,52 @@ header{
     justify-content: space-between;
 }
 
+@media (max-width: 1024px){
+    .navList{
+        font-size: 1.2rem;
+    }
 
+    .texto{
+       padding-left: 10px;
+       padding-right: 10px;         
+    }
+}
 
-  
+@media (max-width: 768px){
+    .navList{
+        font-size: 1.2rem;
+    }
+
+    i{
+        font-size: 1.2rem;
+    }
+
+    .navTitle{
+        font-size: 1.5rem;
+    }
+
+    .title{
+        font-size: 2rem;
+    }
+
+    .texto h2{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 600px){
+    .navList{
+        font-size: 0.8rem;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    i{
+        font-size: 0.8rem;
+    }
+
+    .navTitle{
+        font-size: 1.5rem;
+    }
+}
